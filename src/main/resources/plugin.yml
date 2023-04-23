@@ -1,0 +1,4 @@
+name: custom-trading-limits
+version: '${project.version}'
+main: one.callum.customtradinglimits.Custom_trading_limits
+api-version: 1.19
