@@ -1,4 +1,10 @@
 name: custom-trading-limits
-version: '${project.version}'
+version: 1.0.0
 main: one.callum.customtradinglimits.Custom_trading_limits
 api-version: 1.19
+commands:
+  setmaxtrades:
+    description: Set the maximum number of uses for all villager trades.
+    usage: Example command usage >>> /setmaxtrades 100
+    permission: custom-trading-limits.setlimit
+    permission-message: You do not have permission to use this command.
